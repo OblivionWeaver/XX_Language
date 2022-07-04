@@ -1,8 +1,8 @@
 import sys,os
 import numpy as np
-name = 'Cpp'
-ext = '.cpp'
-bite = 50000000
+name = 'python'
+ext = '.py'
+bite = 100000000
 def main():
     with open(name+ext,"wb") as file:
         file.write(np.random.bytes(bite))
